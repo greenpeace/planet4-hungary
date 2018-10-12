@@ -6,6 +6,9 @@
 		"greenpeace/planet4-child-theme" : "0.2.8"
 	},
 	"scripts": {
-		"site:custom" : []
+		"core:language": "wp language core install hu_HU; wp language core activate hu_HU", 
+		"site:custom": [ 
+		"@core:language"
+		]
 	}
 }
