@@ -19,7 +19,6 @@ job_environments:
     HELM_RELEASE: planet4-hungary
     NEWRELIC_APPNAME: P4 Hungary Development
     WP_DB_NAME: planet4-hungary_wordpress_develop
-    WP_VERSION: 5.0.1
     WP_STATELESS_BUCKET: planet4-hungary-stateless-develop
   release_environment: &release_environment
     APP_ENVIRONMENT: staging
