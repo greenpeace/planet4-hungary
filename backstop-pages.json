@@ -4,19 +4,19 @@
       "label": "Planet4 Hungary act page",
       "url": "https://APP_HOSTNAME/APP_HOSTPATH/cselekedj/",
       "delay": 3000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 1.5
     },
     {
       "label": "Planet4 Hungary explore page",
       "url": "https://APP_HOSTNAME/APP_HOSTPATH/fedezd-fel/",
       "delay": 3000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 1.5
     },
     {
       "label": "Planet4 Hungary privacy and cookies page",
       "url": "https://APP_HOSTNAME/APP_HOSTPATH/adatkezeles/kerdesek-es-valaszok-a-sutikrol/",
       "delay": 3000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 1.5
     }
   ]
 }
