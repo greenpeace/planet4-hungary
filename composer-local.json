@@ -1,14 +1,14 @@
 {
-	"name": "greenpeace/planet4-hungary",
-	"description": "Greenpeace P4 Hungary",
-	"license": "MIT",
-	"require": {
-		"greenpeace/planet4-child-theme-hungary" : "dev-master"
-	},
-	"scripts": {
-		"core:language": "wp language core install hu_HU; wp language core activate hu_HU",
-		"site:custom": [
-			"@core:language"
-		]
-	}
+    "name": "greenpeace/planet4-hungary",
+    "description": "Greenpeace P4 Hungary",
+    "license": "MIT",
+    "require": {
+        "greenpeace/planet4-child-theme-hungary" : "dev-master"
+    },
+    "scripts": {
+        "core:language": "wp language core install hu_HU; wp language core activate hu_HU",
+        "site:custom": [
+            "@core:language"
+        ]
+    }
 }
